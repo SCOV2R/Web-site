@@ -51,7 +51,7 @@
             var species = document.getElementById("species").value;
             var age = document.getElementById("age").value;
             
-            // Створюємо новий елемент списку
+            // Створюємо новий елемент списку 
             var newPet = document.createElement("li");
             newPet.textContent = "Ім'я: " + name + ", Вид: " + species + ", Вік: " + age;
             
